@@ -1,0 +1,472 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="FIT & FAT: aprende sobre comidas para distintos objetivos y disfruta una alimentación variada."
+    />
+    <title>FIT & FAT | Come bien. Elige mejor.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Outfit:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#inicio" aria-label="Ir al inicio de FIT y FAT">
+          <span class="brand-mark">F<span>&</span>F</span>
+          <span class="brand-copy"
+            ><strong>FIT & FAT</strong
+            ><small>Come bien. Elige mejor.</small></span
+          >
+        </a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="main-nav"
+          aria-label="Abrir menú"
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <nav id="main-nav" class="main-nav" aria-label="Navegación principal">
+          <a class="active" href="#inicio">Inicio</a>
+          <a href="#fit">Fit</a>
+          <a href="#fat">Fat</a>
+          <a href="#postres">Postres</a>
+          <a href="#nosotros">Nosotros</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="inicio" class="hero">
+        <div class="hero-shape hero-shape-one"></div>
+        <div class="hero-shape hero-shape-two"></div>
+        <div class="container hero-content">
+          <p class="eyebrow">GUÍA ESCOLAR DE ALIMENTACIÓN</p>
+          <h1>Comer también es<br /><span>aprender.</span></h1>
+          <p class="hero-text">
+            Descubre comidas para diferentes objetivos y aprende a elegir tus
+            alimentos.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#fit"
+              >Explorar FIT <span>↗</span></a
+            >
+            <a class="button button-light" href="#fat"
+              >Ver FAT <span>↗</span></a
+            >
+          </div>
+          <div class="hero-note">
+            <span class="note-dot"></span> Una alimentación variada tiene
+            espacio para todo
+          </div>
+        </div>
+        <div
+          class="hero-photo"
+          role="img"
+          aria-label="Plato colorido con alimentos variados"
+        ></div>
+      </section>
+
+      <section id="fit" class="section fit-section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow green-label">01 / COMIDAS PARA TUS OBJETIVOS</p>
+              <h2>Comidas <em>FIT</em></h2>
+            </div>
+            <p class="section-intro">
+              Preparaciones basadas en alimentos como arroz, huevo, pollo,
+              carne, papa, camote y verduras para acompañar distintos objetivos.
+            </p>
+          </div>
+
+          <div class="category-block reveal">
+            <div class="category-title">
+              <span class="category-number">01</span>
+              <h3>Ganancia de masa</h3>
+              <span class="line"></span
+              ><span class="category-caption">Energía + proteína</span>
+            </div>
+            <div class="cards-grid">
+              <article
+                class="food-card fit-card reveal"
+                data-title="Arroz con pollo y huevo"
+                data-category="Ganancia de masa"
+                data-description="Una combinación completa para comenzar el día o recuperar energía después de una actividad física."
+                data-info="El arroz aporta energía, mientras el pollo y el huevo ofrecen proteínas. Puedes sumar una porción de verduras y ajustar la cantidad según tu hambre y actividad."
+              >
+                <div
+                  class="food-image image-rice"
+                  role="img"
+                  aria-label="Arroz con pollo y huevo"
+                ></div>
+                <div class="card-body">
+                  <span class="card-tag">GANANCIA DE MASA</span>
+                  <h4>Arroz con pollo y huevo</h4>
+                  <p>
+                    Un plato completo y rendidor para tener energía durante el
+                    día.
+                  </p>
+                  <div class="ingredients">
+                    <strong>Incluye</strong
+                    ><span>Arroz · pollo · huevo · verduras</span>
+                  </div>
+                  <button class="more-button" type="button">
+                    Ver más <span>→</span>
+                  </button>
+                </div>
+              </article>
+              <article
+                class="food-card fit-card reveal"
+                data-title="Carne con papa y arroz"
+                data-category="Ganancia de masa"
+                data-description="Una preparación abundante que combina carbohidratos y proteínas en un solo plato."
+                data-info="La papa y el arroz son fuentes de energía; la carne aporta proteínas y minerales. Acompáñalo con agua y una ensalada para sumar variedad."
+              >
+                <div
+                  class="food-image image-beef"
+                  role="img"
+                  aria-label="Carne con papa y arroz"
+                ></div>
+                <div class="card-body">
+                  <span class="card-tag">GANANCIA DE MASA</span>
+                  <h4>Carne con papa y arroz</h4>
+                  <p>Una mezcla sabrosa para una comida con mucha energía.</p>
+                  <div class="ingredients">
+                    <strong>Incluye</strong
+                    ><span>Carne · papa · arroz · cebolla</span>
+                  </div>
+                  <button class="more-button" type="button">
+                    Ver más <span>→</span>
+                  </button>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="category-block reveal">
+            <div class="category-title">
+              <span class="category-number">02</span>
+              <h3>Fuerza</h3>
+              <span class="line"></span
+              ><span class="category-caption">Potencia + equilibrio</span>
+            </div>
+            <div class="cards-grid">
+              <article
+                class="food-card fit-card reveal"
+                data-title="Pollo con camote y huevo"
+                data-category="Fuerza"
+                data-description="Una opción nutritiva para acompañar jornadas activas y mantenerte satisfecho."
+                data-info="El camote brinda energía de forma gradual y el pollo junto con el huevo complementan el plato con proteínas. Puedes agregar hojas verdes o tomate."
+              >
+                <div
+                  class="food-image image-sweet-potato"
+                  role="img"
+                  aria-label="Pollo con camote y huevo"
+                ></div>
+                <div class="card-body">
+                  <span class="card-tag">FUERZA</span>
+                  <h4>Pollo con camote y huevo</h4>
+                  <p>
+                    Un plato equilibrado para días con movimiento y actividad.
+                  </p>
+                  <div class="ingredients">
+                    <strong>Incluye</strong
+                    ><span>Pollo · camote · huevo · palta</span>
+                  </div>
+                  <button class="more-button" type="button">
+                    Ver más <span>→</span>
+                  </button>
+                </div>
+              </article>
+              <article
+                class="food-card fit-card reveal"
+                data-title="Carne con arroz y verduras"
+                data-category="Fuerza"
+                data-description="Proteínas, energía y color en una combinación sencilla para tu almuerzo."
+                data-info="Elige verduras de varios colores para obtener diferentes nutrientes. La porción ideal depende de tu edad, actividad y necesidades."
+              >
+                <div
+                  class="food-image image-vegetables"
+                  role="img"
+                  aria-label="Carne con arroz y verduras"
+                ></div>
+                <div class="card-body">
+                  <span class="card-tag">FUERZA</span>
+                  <h4>Carne con arroz y verduras</h4>
+                  <p>
+                    Una combinación colorida que ayuda a mantener la energía.
+                  </p>
+                  <div class="ingredients">
+                    <strong>Incluye</strong
+                    ><span>Carne · arroz · brócoli · zanahoria</span>
+                  </div>
+                  <button class="more-button" type="button">
+                    Ver más <span>→</span>
+                  </button>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="category-block reveal">
+            <div class="category-title">
+              <span class="category-number">03</span>
+              <h3>Definición</h3>
+              <span class="line"></span
+              ><span class="category-caption">Ligero + nutritivo</span>
+            </div>
+            <div class="cards-grid">
+              <article
+                class="food-card fit-card reveal"
+                data-title="Pollo a la plancha con ensalada"
+                data-category="Definición"
+                data-description="Una alternativa ligera, fresca y fácil de preparar para cualquier día de la semana."
+                data-info="Cocinar el pollo a la plancha reduce el uso de aceite. La ensalada aporta fibra, agua y diferentes vitaminas; puedes variar sus ingredientes."
+              >
+                <div
+                  class="food-image image-salad-chicken"
+                  role="img"
+                  aria-label="Pollo a la plancha con ensalada"
+                ></div>
+                <div class="card-body">
+                  <span class="card-tag">DEFINICIÓN</span>
+                  <h4>Pollo a la plancha con ensalada</h4>
+                  <p>Frescura y proteína en una opción sencilla y liviana.</p>
+                  <div class="ingredients">
+                    <strong>Incluye</strong
+                    ><span>Pollo · lechuga · tomate · pepino</span>
+                  </div>
+                  <button class="more-button" type="button">
+                    Ver más <span>→</span>
+                  </button>
+                </div>
+              </article>
+              <article
+                class="food-card fit-card reveal"
+                data-title="Huevo con camote y ensalada"
+                data-category="Definición"
+                data-description="Un plato práctico con sabores suaves y una buena mezcla de texturas."
+                data-info="El huevo y el camote son alimentos versátiles. Añade una ensalada variada y recuerda que comer equilibrado no significa eliminar grupos de alimentos."
+              >
+                <div
+                  class="food-image image-egg-salad"
+                  role="img"
+                  aria-label="Huevo con camote y ensalada"
+                ></div>
+                <div class="card-body">
+                  <span class="card-tag">DEFINICIÓN</span>
+                  <h4>Huevo con camote y ensalada</h4>
+                  <p>Una opción colorida que combina saciedad y frescura.</p>
+                  <div class="ingredients">
+                    <strong>Incluye</strong
+                    ><span>Huevo · camote · lechuga · tomate</span>
+                  </div>
+                  <button class="more-button" type="button">
+                    Ver más <span>→</span>
+                  </button>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="fat" class="section fat-section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow coral-label">
+                02 / PARA DISFRUTAR CON EQUILIBRIO
+              </p>
+              <h2>Comidas <em>FAT</em></h2>
+            </div>
+            <p class="section-intro">
+              Son comidas generalmente más densas en energía. Puedes
+              disfrutarlas ocasionalmente dentro de una alimentación variada,
+              sin culpas ni prohibiciones.
+            </p>
+          </div>
+          <div class="fat-grid">
+            <article class="food-card fat-card reveal">
+              <div
+                class="food-image image-burger"
+                role="img"
+                aria-label="Hamburguesa con papas"
+              ></div>
+              <div class="card-body">
+                <span class="card-tag">OCASIONAL</span>
+                <h4>Hamburguesa con papas</h4>
+                <p>
+                  Un clásico sabroso para compartir y disfrutar de vez en
+                  cuando.
+                </p>
+                <div class="ingredients">
+                  <strong>Incluye</strong
+                  ><span>Pan · carne · queso · papa</span>
+                </div>
+              </div>
+            </article>
+            <article class="food-card fat-card reveal">
+              <div
+                class="food-image image-pizza"
+                role="img"
+                aria-label="Pizza"
+              ></div>
+              <div class="card-body">
+                <span class="card-tag">OCASIONAL</span>
+                <h4>Pizza</h4>
+                <p>
+                  Una preparación versátil que reúne masa, salsa y tus
+                  ingredientes favoritos.
+                </p>
+                <div class="ingredients">
+                  <strong>Incluye</strong
+                  ><span>Masa · tomate · queso · vegetales</span>
+                </div>
+              </div>
+            </article>
+            <article class="food-card fat-card reveal">
+              <div
+                class="food-image image-broaster"
+                role="img"
+                aria-label="Pollo broaster con papas"
+              ></div>
+              <div class="card-body">
+                <span class="card-tag">OCASIONAL</span>
+                <h4>Pollo broaster con papas</h4>
+                <p>
+                  Una comida crujiente para una ocasión especial o una salida
+                  con amigos.
+                </p>
+                <div class="ingredients">
+                  <strong>Incluye</strong
+                  ><span>Pollo · harina · papa · ensalada</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="postres" class="section dessert-section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow dessert-label">03 / UN TOQUE DULCE</p>
+              <h2>Pequeños <em>placeres</em></h2>
+            </div>
+            <p class="section-intro">
+              Los postres también pueden formar parte de una alimentación
+              variada cuando los disfrutamos con moderación.
+            </p>
+          </div>
+          <div class="dessert-grid">
+            <article class="food-card dessert-card reveal">
+              <div
+                class="food-image image-cinnamon"
+                role="img"
+                aria-label="Rollos de canela"
+              ></div>
+              <div class="card-body">
+                <span class="card-tag">POSTRE</span>
+                <h4>Rollos de canela</h4>
+                <p>
+                  Masa suave, canela aromática y un toque dulce para compartir.
+                </p>
+              </div>
+            </article>
+            <article class="food-card dessert-card reveal">
+              <div
+                class="food-image image-brownie"
+                role="img"
+                aria-label="Brownie"
+              ></div>
+              <div class="card-body">
+                <span class="card-tag">POSTRE</span>
+                <h4>Brownie</h4>
+                <p>
+                  Un bocado de chocolate con textura húmeda y sabor intenso.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="nosotros" class="about-section">
+        <div class="container about-wrap reveal">
+          <div class="about-badge">F&amp;F</div>
+          <div>
+            <p class="eyebrow">04 / SOBRE EL PROYECTO</p>
+            <h2>Aprender para<br /><em>elegir mejor.</em></h2>
+            <p>
+              FIT &amp; FAT es un proyecto escolar creado para aprender sobre
+              diferentes tipos de comidas y presentar información de manera
+              sencilla, visual y entretenida.
+            </p>
+          </div>
+          <div class="objective">
+            <span>✦</span>
+            <h3>Nuestro objetivo</h3>
+            <p>
+              Mostrar que conocer lo que comemos nos ayuda a tomar mejores
+              decisiones y mantener una alimentación variada.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <strong>FIT &amp; FAT</strong
+        ><span>Proyecto escolar · Come bien. Elige mejor.</span
+        ><span>Hecho para aprender</span>
+      </div>
+    </footer>
+    <button
+      id="back-to-top"
+      class="back-to-top"
+      type="button"
+      aria-label="Volver arriba"
+    >
+      ↑
+    </button>
+
+    <div id="food-modal" class="modal" aria-hidden="true">
+      <div class="modal-overlay" data-close-modal></div>
+      <div
+        class="modal-content"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modal-title"
+      >
+        <button
+          class="modal-close"
+          type="button"
+          data-close-modal
+          aria-label="Cerrar ventana"
+        >
+          ×</button
+        ><span id="modal-category" class="card-tag">CATEGORÍA</span>
+        <h2 id="modal-title">Título</h2>
+        <p id="modal-description"></p>
+        <div class="modal-tip">
+          <strong>Dato para recordar</strong>
+          <p id="modal-info"></p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
